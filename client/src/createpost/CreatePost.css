@@ -1,0 +1,79 @@
+
+.create-post {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(10px); 
+    height: 50vh;
+    width: 100vh;
+}
+.create-post h1, .create-post h2, .create-post h3 {
+    font-family: 'Roboto', sans-serif; 
+    color: #2bb98a; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.form-group{
+    margin-bottom: 20px;
+
+}
+
+label{
+    display:block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+textarea {
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: large;
+    text-align: center;
+    resize: none;
+    padding: 10px;
+
+}
+textarea:focus {
+    outline: none;
+}
+
+.author-input{
+    font-family: cursive;
+    font-size: 1 rem;
+    color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.author-input:focus{
+    outline: none;
+    
+}
+.success-message{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #2bb98a;
+}
+
+
+.button {
+    padding: 8px 8px;
+    background-color: #9370DB; /* Button color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for background color, transform, and shadow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+
+}
